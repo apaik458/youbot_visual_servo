@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="script" default="arucoPose.py"/>
+
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    </include>
+
+    <node name="youbot_realsense_node" pkg="youbot_realsense" type="$(arg script)" output="screen">
+    </node>
+
+    <!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find youbot_realsense)/rviz/realsense.rviz"/> -->
+</launch>
