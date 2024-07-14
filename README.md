@@ -1,7 +1,7 @@
 # youbot_visual_servo
-A simple 2-axis IBVS application on the KUKA youBot robot arm using MoveIt Servo and ArUco
+A simple 2-axis IBVS application on the KUKA youBot robot arm using ROS and ArUco
 
-Tested on Ubuntu 20.04 using ROS and MoveIt Noetic
+Tested on Ubuntu 20.04 using ROS Noetic
 
 <img src="youbot_edit.gif" width="750">
 
@@ -67,6 +67,8 @@ roslaunch youbot_driver_ros_interface youbot_driver.launch
 
 ## Running Scripts
 ```
+cd ~/youbot_ws/src
 python3 test_position.py
 python3 test_velocity.py
+python3 test_servo.py
 ```
