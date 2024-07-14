@@ -1,9 +1,9 @@
 # youbot_visual_servo
-A visual servoing application on the KUKA youBot robot arm using MoveIt Servo and ArUco
+A simple 2-axis IBVS application on the KUKA youBot robot arm using MoveIt Servo and ArUco
 
 Tested on Ubuntu 20.04 using ROS and MoveIt Noetic
 
-<img src="youbot_arm.jpg" width="750">
+<img src="youbot_edit.gif" width="750">
 
 ## Setup
 
