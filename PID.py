@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import time
 
+# This PID controller Python implementation was borrowed from
+# https://github.com/ivmech/ivPID
+
 class PID:
     """PID Controller"""
     def __init__(self, P=0.2, I=0.0, D=0.0, current_time=None):
